@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Install sl
-      run: |
-        sudo apt update
-        sudo apt install sl
+      run: sudo apt install sl
     - name: Run sl
       run: sl
