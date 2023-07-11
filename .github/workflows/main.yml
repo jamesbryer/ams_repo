@@ -5,9 +5,9 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-20.04
     steps:
-    - name: Install call
+    - name: Install sl
       run: |
         sudo apt update
-        sudo apt install -y util-linux
-    - name: Run Cal
-      run: cal
+        sudo apt install -y sl
+    - name: Run sl
+      run: sl
