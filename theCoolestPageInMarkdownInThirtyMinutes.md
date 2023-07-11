@@ -72,3 +72,22 @@ Bold and italics in Markdown are cool too. Here's some bold and italics:
 - **This is bold**
 
 - *This is italics*
+
+## Chapter 10
+
+Strike-throughs in Markdown are cool too. Here's a strike-through:
+
+- ~~This is a strike-through~~
+
+## Chapter 11
+
+Task Lists are cool too. Here's a task list:
+
+- [x] This is a completed task
+- [ ] This is an incomplete task
+
+## Chapter 12
+
+I can highlight in Markdown too. Here's some highlighted text:
+
+- ==This is highlighted==
