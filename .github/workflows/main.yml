@@ -12,3 +12,5 @@ jobs:
         sudo apt install -y fortune
     - name: Run fortune
       run: fortune | cowsay
+    - name: Run script.sh
+      run: bash ./script.sh
