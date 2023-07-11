@@ -8,4 +8,4 @@ jobs:
     - name: Install sl
       run: sudo apt install sl
     - name: Run sl
-      run: sl
+      run: sudo sl
