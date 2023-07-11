@@ -76,7 +76,7 @@ We can also do ordered lists. Here is a list of my favorite animals:
 
 Headings in Markdown are cool too. Here's a heading:
 
-### This is a heading
+### This is a heading. Look how *shiny* it is. It's **so** shiny
 
 ## Chapter 8
 
