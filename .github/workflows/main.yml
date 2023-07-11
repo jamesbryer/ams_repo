@@ -10,4 +10,4 @@ jobs:
         sudo apt update
         sudo apt install -y sl
     - name: Run sl
-      run: sl
+      run: ls
