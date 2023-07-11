@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This is a page about the coolest page in Markdown. It is written in Markdown. It is the coolest page in Markdown.
+This is a page about the coolest page in Markdown. It is written in Markdown. It is the coolest page in Markdown. It is a page about itself. Mind blown.
 
 ## Chapter 1
 
