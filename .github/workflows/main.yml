@@ -5,9 +5,10 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-20.04
     steps:
-    - name: Install sl
+    - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y sl
-    - name: Run sl
-      run: ls
+        sudo apt install -y cowsay
+        sudo apt install -y fortune
+    - name: Run fortune
+      run: fortune | cowsay
