@@ -117,7 +117,7 @@ This is a sentence with a footnote. [^1]
 
 Making a cartoon using characters:
 
-```
+```python
 (\_/)
 ( •,•)
 (")_(")
