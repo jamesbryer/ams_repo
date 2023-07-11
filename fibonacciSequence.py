@@ -11,3 +11,17 @@ def fibonacciSequence(length):
 
 # print the sequence with a length of 10
 print(fibonacciSequence(10))
+
+# define a function to put the characters of a string in alphabetical order
+def alphabetize(string):
+    # convert the string to a list of characters
+    characters = list(string)
+    # sort the list of characters
+    characters.sort()
+    # remove duplicate characters
+    characters = list(dict.fromkeys(characters))
+    # return the sorted list of characters as a string
+    return ''.join(characters)
+
+# print the alphabetized string
+print(alphabetize("hello world"))
