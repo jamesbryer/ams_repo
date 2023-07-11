@@ -63,6 +63,15 @@ Lists in Markdown are cool too. Here's a list of things I like:
 - Pizza
 - Ice Cream
 
+We can also do ordered lists. Here is a list of my favorite animals:
+
+1. Cats
+2. Dogs
+3. Rabbits
+4. Birds
+5. Fish
+6. Tortoises
+
 ## Chapter 7
 
 Headings in Markdown are cool too. Here's a heading:
