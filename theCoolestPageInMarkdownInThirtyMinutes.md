@@ -12,7 +12,7 @@ Emoji's in Markdown are cool. :smile: :heart: :+1: :sparkles: :tada: :rocket: :m
 
 Pictures in markdown are cool too. Here's a picture of a kitten:
 
-![A kitten](https://placekitten.com/200/300)
+![A kitten](kitten.jpg)
 
 ## Chapter 3
 
