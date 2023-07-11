@@ -88,6 +88,8 @@ Task Lists are cool too. Here's a task list:
 
 ## Chapter 12
 
-I can highlight in Markdown too. Here's some highlighted text:
+We can use footnotes in Markdown too. Here's a footnote:
 
-I need to highlight these ==very important works==.
+This is a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
