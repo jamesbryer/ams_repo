@@ -1,0 +1,65 @@
+# Lists, maps, or atoms
+
+# List 
+- cat
+- dog
+- tortoise
+- mouse
+- snake
+
+# Maps store key-value pairs
+name: James
+age: 25
+hands: 2
+
+# Hierarchy of lists and maps
+
+names:
+  - james
+  - farah
+  - ruben
+  - akber
+  - andrei
+pets:
+  - ted
+  - buddy
+  - lily
+  - timmy
+
+# List of key value pairs
+- name: james
+  age: 25
+  height: 179cm
+  weight: 72kg
+- name: jasmine
+  age: 21
+  height: 170cm
+  weight: 60kg
+
+# multi-line key value pair
+- poem: |
+  Hello!
+  This is a multi-line poem
+  I am such a poet
+  Poem
+- poem : |
+  Slam... poetry. 
+  YELLING! Angry???? WAVING MY HANDS A LOT! 
+  Specific point of view on things! 
+  Cynthia! 
+  Cyn-thi-a! 
+  Jesus died for our sin-thi-as! 
+  Jesus cried, runaway 
+  bride. Julia Roberts! Julia Rob
+  -hurts????! 
+  Cynthia! Mmmmmmmm, 
+  Cynthia. 
+  You're dead. 
+  You are 
+  dead,
+  bop boop beep bop bop boop bop. 
+  You're dead. 
+  That's for Cynthia... 
+  who's dead.
+
+  
