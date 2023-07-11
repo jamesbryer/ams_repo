@@ -1,5 +1,15 @@
 # Quite Simply the Coolest Page in Markdown (in thirty minutes)
 
+```
+|￣��
+|  THE COOLEST PAGE IN MARKDOWN
+|  IN THIRTY MINUTES
+|   ＿＿＿＿＿＿＿＿
+(\__/) ||
+(•ㅅ•) ||
+/ 　 づ
+```
+
 ## Introduction
 
 This is a page about the coolest page in Markdown. It is written in Markdown. It is the coolest page in Markdown.
@@ -93,3 +103,13 @@ We can use footnotes in Markdown too. Here's a footnote:
 This is a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
+
+## Chapter 13
+
+Making a cartoon using characters:
+
+```
+(\_/)
+( •,•)
+(")_(")
+```
