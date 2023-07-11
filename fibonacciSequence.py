@@ -6,3 +6,8 @@ def fibonacciSequence(length):
     while len(sequence) < length:
         # append the sum of the last two numbers to the sequence
         sequence.append(sequence[-1] + sequence[-2])
+    # return the sequence
+    return sequence
+
+# print the sequence with a length of 10
+print(fibonacciSequence(10))
