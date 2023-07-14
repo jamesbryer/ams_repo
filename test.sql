@@ -9,6 +9,10 @@ THEN
 
 i want to only have 1 record for each movie, with the average rating from the ratings table and the number of ratings count
 
+THEN  
+
+i want to remove the rating column, but add one for average rating where we count all the individual ratings and give an average to 2 decimal places
+
 I have to change the some of the column names to make it work as chatGPT didn't know what they were called. 
  */
 
