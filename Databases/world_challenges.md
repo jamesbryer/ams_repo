@@ -53,7 +53,7 @@ SELECT Name from city WHERE Name LIKE 'F%' LIMIT 25;
 
 ```sql
 
-SELECT COUNT(country.Name) FROM city LEFT JOIN country ON country.code = city.CountryCode WHERE country.name="China";
+SELECT COUNT(city.Name) FROM city LEFT JOIN country ON country.code = city.CountryCode WHERE country.name="China";
 
 ```
 
