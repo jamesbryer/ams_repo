@@ -36,3 +36,15 @@ SELECT name, surfacearea FROM country ORDER BY surfacearea DESC;
 
 ```sql
 SELECT Name, GNP FROM country WHERE Continent = 'Asia' ORDER BY GNP DESC LIMIT 1;
+
+```
+
+### 7. Find all the cities in the UK
+
+```sql
+
+SELECT city.name, country.Name from city LEFT JOIN country on city.CountryCode = country.code WHERE country.Name = "United Kingdom";
+
+```
+
+### 8
