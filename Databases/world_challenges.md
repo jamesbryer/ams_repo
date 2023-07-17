@@ -124,7 +124,7 @@ SELECT Name, GNP from country ORDER BY GNP DESC LIMIT 10;
 
 ```
 
-## 16 List the names of, and number of languages spoken by, the top ten most multilingual countries
+## 16. List the names of, and number of languages spoken by, the top ten most multilingual countries
 
 ```sql
 
@@ -133,7 +133,14 @@ SELECT country.Name, COUNT(countrylanguage.Language) AS Num_of_Languages FROM co
 
 ```
 
-List every country where over 50% of its population can speak German.
+## 17. List every country where over 50% of its population can speak German
+
+```sql
+
+SELECT country.Name, countrylanguage.Percentage FROM country LEFT JOIN countrylanguage ON country.Code = countrylanguage.CountryCode WHERE countrylanguage.Language="German" AND countrylanguage.Percentage > 50;
+
+```
+
 Which country has the worst life expectancy? Discard zero or null values.
 List the top three most common government forms.
 How many countries have gained independence since records began?
