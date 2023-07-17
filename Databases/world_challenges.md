@@ -157,4 +157,10 @@ SELECT governmentform, COUNT(*) AS num_countries FROM country GROUP BY governmen
 
 ```
 
-How many countries have gained independence since records began?
+## 20. How many countries have gained independence since records began
+
+```sql
+
+SELECT COUNT(Name) from country WHERE IndepYear IS NOT NULL;
+
+```
