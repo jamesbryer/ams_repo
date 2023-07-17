@@ -31,3 +31,8 @@ SELECT Name, population FROM country ORDER BY population DESC;
 ```sql
 SELECT name, surfacearea FROM country ORDER BY surfacearea DESC;
 ```
+
+### 6. Find the highest GNP in Asia
+
+```sql
+SELECT Name, GNP FROM country WHERE Continent = 'Asia' ORDER BY GNP DESC LIMIT 1;
