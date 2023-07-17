@@ -141,6 +141,20 @@ SELECT country.Name, countrylanguage.Percentage FROM country LEFT JOIN countryla
 
 ```
 
-Which country has the worst life expectancy? Discard zero or null values.
-List the top three most common government forms.
+## 18. Which country has the worst life expectancy? Discard zero or null values
+
+```sql
+
+SELECT Name, LifeExpectancy from country WHERE LifeExpectancy IS NOT NULL AND LifeExpectancy > 0 ORDER BY LifeExpectancy ASC LIMIT 1;
+
+```
+
+## 19. List the top three most common government forms
+
+```sql
+
+SELECT governmentform, COUNT(*) AS num_countries FROM country GROUP BY governmentform ORDER BY num_countries DESC LIMIT 3;
+
+```
+
 How many countries have gained independence since records began?
