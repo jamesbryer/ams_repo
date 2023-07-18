@@ -1,4 +1,4 @@
-# initialise a dictionary of classic books with their author as keys including all the harry potter books
+# initialise a dictionary of classic books with their author as keys
 books = {
     "The Hitchhiker's Guide to the Galaxy": "Douglas Adams",
     "The Lord of the Rings": "J. R. R. Tolkien",
