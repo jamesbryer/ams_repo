@@ -6,6 +6,8 @@ if mark.isdigit():
         print("Distinction")
     elif mark >= 65:
         print("Pass")
+    elif mark > 100:
+        print("Wow you're literally a goated")
     else:
         print("Fail")
 else:
@@ -16,6 +18,8 @@ mark = input("Enter your mark: ")
 
 if mark.isdigit():
     mark = int(mark)
+    if mark > 100:
+        print("Wow you're literally a goated")
     if mark >= 85:
         print("Distinction")
     if mark >= 65 and mark < 85:
