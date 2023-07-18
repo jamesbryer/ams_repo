@@ -19,6 +19,6 @@ authorName = input("Please enter the author's name: ")
 if authorName not in books.keys():
     print("Sorry, we don't have any books by", authorName)
 else:
-    # without looping through the dictionary, we can use the .get() method to get the value of the key
+    # print the books by the author
     print("The following books are written by", authorName + ":")
     print(', '.join(sorted(books[authorName])))
