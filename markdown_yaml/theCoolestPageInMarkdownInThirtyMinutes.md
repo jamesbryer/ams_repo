@@ -1,6 +1,6 @@
 # Quite Simply the Coolest Page in Markdown (in thirty minutes)
 
-```
+```text
 |￣��
 |  THE COOLEST PAGE IN MARKDOWN
 |  IN THIRTY MINUTES
