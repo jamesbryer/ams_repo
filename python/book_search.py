@@ -21,4 +21,4 @@ if authorName not in books.keys():
 else:
     # print the books by the author
     print("The following books are written by", authorName + ":")
-    print(', '.join(sorted(books[authorName])))
+    print(', \n'.join(sorted(books[authorName])))
