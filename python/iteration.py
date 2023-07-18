@@ -8,7 +8,7 @@ for i in range(1, 6):
 for i in range(0, 5):
     print(list[i] + " is awesome!")
 
-""" # 1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
+# 1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
 counter = 0
 for i in range(1500, 2701):
     if i % 7 == 0 and i % 5 == 0:
@@ -106,4 +106,3 @@ for i in range(1, 51):
         print("buzz")
     else:
         print(i)
- """
