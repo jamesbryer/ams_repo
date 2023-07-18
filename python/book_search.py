@@ -1,4 +1,4 @@
-# initialise a dictionary of classic books with their author as keys
+# initialise a dictionary of classic books with their author as keys including all the harry potter books
 books = {
     "The Hitchhiker's Guide to the Galaxy": "Douglas Adams",
     "The Lord of the Rings": "J. R. R. Tolkien",
@@ -9,6 +9,15 @@ books = {
     "The Hobbit": "J. R. R. Tolkien",
     "The Little Prince": "Antoine de Saint-Exupéry",
     "Harry Potter and the Philosopher's Stone": "J. K. Rowling",
+    "Harry Potter and the Chamber of Secrets": "J. K. Rowling",
+    "Harry Potter and the Prisoner of Azkaban": "J. K. Rowling",
+    "Harry Potter and the Goblet of Fire": "J. K. Rowling",
+    "Harry Potter and the Order of the Phoenix": "J. K. Rowling",
+    "Harry Potter and the Half-Blood Prince": "J. K. Rowling",
+    "Harry Potter and the Deathly Hallows": "J. K. Rowling",
+    "The Lion, the Witch and the Wardrobe": "C. S. Lewis",
+    "The Secret Garden": "Frances Hodgson Burnett",
+    "The BFG": "Roald Dahl",
     "Alice's Adventures in Wonderland": "Lewis Carroll",
     "Winnie-the-Pooh": "A. A. Milne",
     "The Da Vinci Code": "Dan Brown",
