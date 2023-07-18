@@ -24,7 +24,7 @@ if mark.isdigit():
         print("Distinction")
     if mark >= 65 and mark < 85:
         print("Pass")
-    if mark < 65:
+    else:
         print("Fail")
 else:
     print("Not a valid mark")
