@@ -1,48 +1,23 @@
-# initialise a dictionary of classic books with their author as keys
+# initialise a dictionary of classic books with their authors
 books = {
-    "The Hitchhiker's Guide to the Galaxy": "Douglas Adams",
-    "The Lord of the Rings": "J. R. R. Tolkien",
-    "The Cat in the Hat": "Dr. Seuss",
-    "The Very Hungry Caterpillar": "Eric Carle",
-    "Charlie and the Chocolate Factory": "Roald Dahl",
-    "Charlotte's Web": "E. B. White",
-    "The Hobbit": "J. R. R. Tolkien",
-    "The Little Prince": "Antoine de Saint-Exupéry",
-    "Harry Potter and the Philosopher's Stone": "J. K. Rowling",
-    "Harry Potter and the Chamber of Secrets": "J. K. Rowling",
-    "Harry Potter and the Prisoner of Azkaban": "J. K. Rowling",
-    "Harry Potter and the Goblet of Fire": "J. K. Rowling",
-    "Harry Potter and the Order of the Phoenix": "J. K. Rowling",
-    "Harry Potter and the Half-Blood Prince": "J. K. Rowling",
-    "Harry Potter and the Deathly Hallows": "J. K. Rowling",
-    "The Lion, the Witch and the Wardrobe": "C. S. Lewis",
-    "The Secret Garden": "Frances Hodgson Burnett",
-    "The BFG": "Roald Dahl",
-    "Alice's Adventures in Wonderland": "Lewis Carroll",
-    "Winnie-the-Pooh": "A. A. Milne",
-    "The Da Vinci Code": "Dan Brown",
-    "The Catcher in the Rye": "J. D. Salinger",
-    "The Great Gatsby": "F. Scott Fitzgerald",
-    "The Hunger Games": "Suzanne Collins"
+    "Charles Dickens": ["A Christmas Carol"],
+    "William Shakespeare": ["Hamlet", "Macbeth", "Romeo and Juliet"],
+    "Mark Twain": ["Adventures of Huckleberry Finn", "The Adventures of Tom Sawyer"],
+    "Jane Austen": ["Pride and Prejudice", "Emma", "Sense and Sensibility"],
+    "Arthur Conan Doyle": ["The Adventures of Sherlock Holmes", "The Hound of the Baskervilles"],
+    "Lewis Carroll": ["Alice's Adventures in Wonderland", "Through the Looking-Glass"],
+    "Jules Verne": ["Journey to the Center of the Earth", "Twenty Thousand Leagues Under the Sea"],
+    "Charlotte Bronte": ["Jane Eyre"],
+    "Emily Bronte": ["Wuthering Heights"],
+    "Oscar Wilde": ["The Picture of Dorian Gray", "The Importance of Being Earnest"]
 }
 
 # ask the user for an author's name
 authorName = input("Please enter the author's name: ")
-# initialise an empty list to store the books by the author
-booksByAuthor = []
-
 # check if the author is in the dictionary
-if authorName not in books.values():
+if authorName not in books.keys():
     print("Sorry, we don't have any books by", authorName)
 else:
+    # without looping through the dictionary, we can use the .get() method to get the value of the key
     print("The following books are written by", authorName + ":")
-    # loop through the books in the dictionary
-    for book in books:
-        # check if the author of the book is the same as the author entered by the user
-        if books[book] == authorName:
-            # add the book to the list of books by the author
-            booksByAuthor.append(book)
-    # sort the list of books alphabetically
-    booksByAuthor = sorted(booksByAuthor)
-    # print the list of books
-    print(', '.join(booksByAuthor))
+    print(', '.join(books[authorName]))
