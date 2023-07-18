@@ -76,4 +76,3 @@ for char in word:
 list.reverse()
 print("".join(list))
 ```
-
