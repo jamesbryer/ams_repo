@@ -8,7 +8,7 @@ while numberOfRolls > 10000:
 total = 0
 for i in range(numberOfRolls):
     roll = diceRoll()
-    print("Roll " + str(i) + ": " + str(roll))
+    print("Roll " + str(i + 1) + ": " + str(roll))
     total += roll
 print("The total after " + str(numberOfRolls) + " rolls is: " + str(total) +
       "\nWhich means an average roll of: " + str(round(total/numberOfRolls, 2)))
