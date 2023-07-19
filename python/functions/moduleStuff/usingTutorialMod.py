@@ -1,10 +1,10 @@
 from tutorialmod import diceRoll
 
 numberOfRolls = int(input("Please enter the number of rolls you would like: "))
-if numberOfRolls > 10000:
-    print("Really???? Are you sure you want that many rolls??? I think not.")
+while numberOfRolls > 10000:
+    print("\n \n Really???? Are you sure you want that many rolls??? I think not.")
     numberOfRolls = int(input(
-        "Please enter the number of rolls you would like (this time pick a REASONABLE number you wally): "))
+        "\n Please enter the number of rolls you would like (this time pick a REASONABLE number you wally): "))
 total = 0
 for i in range(numberOfRolls):
     roll = diceRoll()
