@@ -15,8 +15,7 @@ class Student:
         return (a + b + c) / 3
 
 
-james = Student("James", 25)
-
-avgScore = james.avgTestScore(65, 75, 87)
-
-print("The average test score for", james.name, "is", avgScore)
+if __name__ == '__main__':
+    james = Student("James", 25)
+    avgScore = james.avgTestScore(65, 75, 87)
+    print("The average test score for", james.name, "is", avgScore)
