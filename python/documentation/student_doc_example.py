@@ -1,6 +1,6 @@
 class Student:
 
-    def __init__(self, name: str, age: int, lesson="student"):
+    def __init__(self, name: str, age: int, lesson: str = "student"):
         '''
         Student(name, age, lesson): Creates a new student object with the given name and age
         '''
