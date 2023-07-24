@@ -43,7 +43,7 @@ class Dog():
     # repr is used to create a representation of the object that can be used to recreate the object
     def __repr__(self) -> str:
         '''
-        Returns a string representation of the dog
+        Returns a representation of the dog that can be used to recreate the dog
         '''
 
         return f"Dog('{self.name}', {self.age}, '{self.breed}')"
