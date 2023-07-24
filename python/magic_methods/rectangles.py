@@ -8,6 +8,12 @@ class Rectangle:
         self.length = length
         self.width = width
 
+    def calculate_area(self) -> int:
+        '''
+        Returns the area of the rectangle
+        '''
+        return self.length * self.width
+
     def __str__(self) -> str:
         '''
         Returns an ASCII art representation of the rectangle
@@ -27,7 +33,7 @@ class Rectangle:
         Returns the area of the rectangle
         '''
 
-        return self.length * self.width
+        return self.calculate_area()
 
 
 if __name__ == "__main__":
