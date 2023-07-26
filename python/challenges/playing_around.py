@@ -1,3 +1,4 @@
+import random
 first_names = ['James', 'John', 'Robert', 'Michael', 'William', 'David', 'Richard', 'Joseph', 'Charles', 'Thomas',
                'Christopher', 'Daniel', 'Matthew', 'Anthony', 'Donald', 'Mark', 'Paul', 'Steven', 'Andrew', 'Kenneth',
                'George', 'Joshua', 'Kevin', 'Brian', 'Edward', 'Ronald', 'Timothy', 'Jason', 'Jeffrey', 'Ryan',
@@ -40,3 +41,9 @@ last_names = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Miller', 'Davis
               'Pham', 'Valencia', 'Odonnell', 'Mays', 'Hale', 'Hobbs', 'Duran', 'Gibbons', 'Velez', 'Monroe',
               'Cobb', 'Merrick', 'Cline', 'Tran', 'Duran', 'Houston', 'Bryan', 'Huang', 'Roberson', 'Mcmahon',
               'Yu', 'Krause', 'Suarez', 'Frost', 'Avila', 'Hawkins', 'Hardin', 'Chen', 'Case', 'Cuevas']
+name = ''
+count = 0
+while name != "Lewis Hamilton":
+    name = random.choice(first_names) + " " + random.choice(last_names)
+    count += 1
+print("It took", count, "attempts to get Lewis Hamilton!")
