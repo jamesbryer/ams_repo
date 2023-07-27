@@ -60,6 +60,17 @@ class Book():
             if book.author == author:
                 books_by_author.append(book)
         return books_by_author
+    
+    @staticmethod
+    def search_book(title):
+        '''
+        A method to search for a single book by title
+        '''
+        for book in Book.books:
+            if book.title == title:
+                return book
+            else:
+                return "Book not found!"
 
     def __str__(self):
         '''
