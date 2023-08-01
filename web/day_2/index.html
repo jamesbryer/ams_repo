@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>    
+    <h1>Home Page</h1>
+    <a href="about.html"><h2>ABOUT</h2></a>
+    <img src="images/smiley.png" alt="smiley face" height="200px" width="200px">
+    <img src="/web/day_2/smiley.png" alt="smiley face" height="200px" width="200px">
+    <img src="../day_2/smiley.png" alt="smiley face" height="200px" width="200px">
+    <!-- Mailto -- very helpful!! Opens an email in a local client (if installed) -->
+    <p><a href="mailto:some.one@qa.com?subject=Hello Instructor&body=Just dropping a line to say hello">Contact Instructor</a></p>
+
+    <br>
+    <br>
+    <br>
+    <!-- A <datalist> is similar to a <select> list, but a <datalist> allows you to 
+        type the option you wish into the drop-down field. The autocompletion is 
+        somewhat buggy, however, so use this sparingly. -->
+
+    <form ...>
+        <input list="browsers" />
+        <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Google Chrome">
+              <option value="Opera">
+              <option value="Safari">
+        </datalist>
+      </form>
+
+      <form ...>
+        <input type="text" autofocus="true" required />
+    </form>
+      
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+#p1 {
+    color: aqua;
+}
+#p2 {
+    text-align: end;
+}
+#p3 {
+    text-decoration: dashed;
+}
+#p4 {
+    text-transform: capitalize;
+}
+#p5 {
+    text-indent: 50px;
+}
+#p6 {
+    letter-spacing: 20px;
+}
+#p7 {
+    line-height: 50px;
+}
+#p8 {
+    direction: rtl;
+}
+#p9 {
+    word-spacing: 30px;
+}
+#p10 {
+    text-shadow: 30px;
+}
+
+

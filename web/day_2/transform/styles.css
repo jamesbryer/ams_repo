@@ -1,0 +1,15 @@
+.picture {
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+}
+
+#spin {
+    transform: scaleX(-1) rotate(30deg);
+
+}
+
+button {
+    margin-left: 25%;
+}
