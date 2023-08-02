@@ -1,0 +1,11 @@
+h1 {
+    visibility: hidden;
+}
+
+li {
+    display: inline;
+}
+
+strong {
+    display: block;
+}

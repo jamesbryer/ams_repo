@@ -1,0 +1,11 @@
+.right {
+    /* position: absolute;
+    right: 0; */
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    width: 300px;
+    background-color: #b0e0e6;
+}

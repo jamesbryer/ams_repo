@@ -1,0 +1,31 @@
+em {
+    color: blue;
+}
+
+/* decendent combinator */
+article h1 {
+    color: red;
+}
+
+/* direct child */
+article > footer {
+    color: limegreen;
+}
+
+/* adjacent-sibling combinator */
+h1 + p {
+    color: purple
+}
+
+
+/* all siblings */
+h1 ~ p {
+    background-color: grey;
+}
+
+
+/* psuedo class on hover */
+.hover:hover {
+    color: green;
+    transform: rotate(90deg);
+}
