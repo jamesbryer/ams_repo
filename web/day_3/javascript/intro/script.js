@@ -47,7 +47,7 @@ console.log(x);
 var x = 10;
 
 // this throws an error - USE THIS 
-console.log(y);
+//console.log(y);
 let y = 10;
 
 // this works because var is globally scoped - DON'T DO THIS
@@ -57,3 +57,23 @@ aeg = 10;
 
 // we should use script mode to throw errors for undeclared variables
 "use strict";
+
+//indexOf() - returns the index of the first occurence of a specified value in a string
+let myString = "Hello World!";
+console.log(myString.indexOf("o"));
+// charAt() - returns the character at a specified index in a string
+console.log(myString.charAt(4));
+
+// eval() - evaluates a string and executes it as if it were a script code
+eval("console.log('Hello World!')");
+console.log(eval("2 + 2"));
+
+let totalMoney = 4000;
+let moneyPaidSoFar = 2348;
+console.log(`The total bill is £${totalMoney} the remaining amount of money to be paid is £${totalMoney - moneyPaidSoFar}`)
+
+function speak() {
+    return "Hello World!";
+};
+
+console.log(speak());
